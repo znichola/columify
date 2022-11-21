@@ -1,8 +1,12 @@
-# columify
+# Columnify
 
 Formats a list of strings to fit inside a given character width, used to make your makefile pretty.
 
-## usage
+## Compiling
+
+Compile with `gcc -o columnify columinfy.c` or for mac use the already compiled binary.
+
+## Usage
 
 Format a list of strings so they fit inside a width of 66 character and `/` is added so it's ready to copy into a makefile.
 
